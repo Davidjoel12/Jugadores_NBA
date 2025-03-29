@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@600&display=swap');
+
+body {
+  background-color: #f0f4f3;
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+}
+
+.card {
+  box-shadow: 0 7px 80px rgba(12, 5, 83, 0.17);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  margin: 20px 35px;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+}
+
+.description {
+  text-align: justify;
+  
+  li {
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #f0f4f3;
+    
+    span {
+      color: #777;
+    }
+  }
+}
+

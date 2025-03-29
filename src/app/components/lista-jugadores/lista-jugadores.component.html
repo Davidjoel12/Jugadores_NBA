@@ -1,0 +1,87 @@
+<div class="container text-center mt-4">
+    <h1>Lista de Jugadores NBA</h1>
+    <hr /><br><br>
+    
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Curry<!--{{ jugador.nombre }}-->
+                    <hr>
+                  </h5>
+                  <ul class="description">
+                    <li>Número: <span><!--{{ jugador.numero }}--></span></li>
+                    <li>Posición: <span><!--{{ jugador.posicion }}--></span></li>
+                    <li>Estadística: <span><!--{{ jugador.estadisticas }}--></span></li>
+                    <li>Equipo: <span><!--{{ jugador.nombreDelEquipo }}--></span></li>
+                  </ul>
+                <div style="margin: 0 10px;">
+                    <button class="btn btn-warning" style="margin: 0 10px;">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">
+                    James<!--{{ jugador.nombre }}-->
+                    <hr>
+                  </h5>
+                  <ul class="description">
+                    <li>Número: <span><!--{{ jugador.numero }}--></span></li>
+                    <li>Posición: <span><!--{{ jugador.posicion }}--></span></li>
+                    <li>Estadística: <span><!--{{ jugador.estadisticas }}--></span></li>
+                    <li>Equipo: <span><!--{{ jugador.nombreDelEquipo }}--></span></li>
+                  </ul>
+                  <div style="margin: 0 10px;">
+                    <button class="btn btn-warning" style="margin: 0 10px;">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Kevin Duran<!--{{ jugador.nombre }}-->
+                    <hr>
+                  </h5>
+                  <ul class="description">
+                    <li>Número: <span><!--{{ jugador.numero }}--></span></li>
+                    <li>Posición: <span><!--{{ jugador.posicion }}--></span></li>
+                    <li>Estadística: <span><!--{{ jugador.estadisticas }}--></span></li>
+                    <li>Equipo: <span><!--{{ jugador.nombreDelEquipo }}--></span></li>
+                  </ul>
+                  <div style="margin: 0 10px;">
+                    <button class="btn btn-warning" style="margin: 0 10px;">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+        
+      <!--<div class="col-md-3 mb-4" *ngFor="let jugador of listaJugadores">
+        <div class="card h-100">
+          <img 
+            [src]="'https://' + jugador.imgSrc" 
+            class="card-img-top img-fluid"
+            alt="Foto-jugador" 
+            style="height: 250px; object-fit: cover;">  Link para agregar la imagen del jugador
+          <div class="card-body">
+            <h5 class="card-title">
+              {{ jugador.nombre }}
+              <hr>
+            </h5>
+            <ul class="description">
+              <li>Número: <span>{{ jugador.numero }}</span></li>
+              <li>Posición: <span>{{ jugador.posicion }}</span></li>
+              <li>Estadística: <span>{{ jugador.estadisticas }}</span></li>
+              <li>Equipo: <span>{{ jugador.nombreDelEquipo }}</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </div>
