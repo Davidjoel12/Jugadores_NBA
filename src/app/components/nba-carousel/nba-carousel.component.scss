@@ -1,0 +1,44 @@
+:host {
+    display: flex;
+  }
+  
+  .carousel {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 891px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    
+    &-item {
+      transition: transform 0.6s ease-in-out;
+      height: 500px;
+    }
+    
+    .img-container {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #000;
+      position: relative;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      object-fit: contain; // Cambiado de 'cover' a 'contain'
+      filter: brightness(0.9);
+      transition: filter 0.3s ease;
+    }
+    
+    &:hover img {
+      filter: brightness(0.8);
+    }
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }

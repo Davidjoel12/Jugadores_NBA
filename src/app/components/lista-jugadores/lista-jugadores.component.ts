@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { NbaCarouselComponent } from '../nba-carousel/nba-carousel.component';
+import { NbaNavbarComponent } from '../nba-navbar/nba-navbar.component';
 
 @Component({
   selector: 'app-lista-jugadores',
-  imports: [],
+  imports: [NbaCarouselComponent, NbaNavbarComponent],
   templateUrl: './lista-jugadores.component.html',
   styleUrl: './lista-jugadores.component.scss'
 })
